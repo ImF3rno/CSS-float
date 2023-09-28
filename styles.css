@@ -1,0 +1,31 @@
+body{
+    margin: 18px;
+    background:linear-gradient(skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+input:focus{
+    background-color: yellow;
+}
+p:first-child{
+    background-color: red;
+}
+p:nth-child(2){
+    background-color: green;
+}
+p:nth-child(3){
+    font-size:larger;
+    font-style:oblique;
+}
+p::selection{
+    color: red;
+}
